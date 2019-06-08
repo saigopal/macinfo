@@ -3,7 +3,7 @@
 * [Setup](#setup)
 * [Run](#run)
 * [Test](#test)
-* [Security Considerations](#security)
+* [Security Considerations](#security-considerations)
 
 ## Minimum  Requirements
 Ensure below steps are completed before you start:
