@@ -1,11 +1,11 @@
 ## Table of contents
-* [Minimum  Requirements](#requirements)
+* [Requirements](#requirements)
 * [Setup](#setup)
 * [Run](#run)
 * [Test](#test)
 * [Security Considerations](#security-considerations)
 
-## Minimum  Requirements
+## Requirements
 Ensure below steps are completed before you start:
 * Ensure Docker Version 17.05 or higher is installed on your machine.
 * Sign Up with macaddress.io and copy API key from Account -> General page.
