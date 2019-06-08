@@ -13,7 +13,7 @@ Ensure below software is installed on the your machine:
 ## Setup
 Checkout code from github and build the container:
 ```
-$ git clone
+$ git clone https://github.com/saigopal/macinfo.git
 $ cd macinfo
 $ docker build -t macinfo .
 ```
