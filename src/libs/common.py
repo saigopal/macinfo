@@ -1,3 +1,4 @@
+import sys
 import re
 import requests
 
@@ -45,3 +46,4 @@ def get_mac_info(apikey, macaddress):
             print("Timeout ERROR: ", e)
     else:
         return 'ERROR: Invalid MAC Format.'
+        sys.exit(1)
