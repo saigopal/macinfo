@@ -14,7 +14,7 @@ Ensure below software is installed on the your machine:
 Checkout code from github and build the container:
 ```
 $ git clone
-$ cd
+$ cd macinfo
 $ docker build -t macinfo .
 ```
 
@@ -29,7 +29,7 @@ $ docker run --rm macinfo --macaddress {MAC ADDRESS} --apikey {YOUR_API_KEY}
 ```
 
 ## Test
-Run below commands to test changes in the tools:
+Run below commands to test changes in the tool:
 ```
 $ docker build --target=test -t macinfo .  
 $ docker run --rm macinfo
@@ -41,4 +41,4 @@ $ docker run --rm macinfo
 * API Key Security - Pending :
     * This tool uses API Keys to fetch vendor information which should be stored securely.
     * We can store API Key in Hashcorp Vault instance which encrypts and stores key-value pairs on disk.
-    * The tool can be programmed to fetch key-value from vault whenever it runs in exchange of a vault token.
+    * The tool can be programmed to fetch key-value from vault whenever it runs in exchange of a app tokens provided by vault.

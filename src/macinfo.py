@@ -46,7 +46,6 @@ def main():
 
     args = parser.parse_args()
 
-
     macinfo = get_mac_info(args.apikey, args.macaddress)
     print(format_mac_info(macinfo))
 
