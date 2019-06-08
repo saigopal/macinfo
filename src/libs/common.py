@@ -38,12 +38,15 @@ def get_mac_info(apikey, macaddress):
             return r.json()
         except requests.exceptions.RequestException as e:
             print(e)
+            sys.exit(1)
         except requests.exceptions.HTTPError as e:
             print("HTTP ERROR: ", e)
+            sys.exit(1)
         except requests.exceptions.ConnectionError as e:
             print("Connection ERROR: ", e)
+            sys.exit(1)
         except requests.exceptions.Timeout as e:
             print("Timeout ERROR: ", e)
+            sys.exit(1)
     else:
         return 'ERROR: Invalid MAC Format.'
-        sys.exit(1)
