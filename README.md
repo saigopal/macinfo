@@ -6,8 +6,8 @@
 * [Security Considerations](#security)
 
 ## Minimum  Requirements
-Ensure below software is installed on the your machine:
-* Docker Version 17.05 or higher
+Ensure below steps are completed before you start:
+* Ensure Docker Version 17.05 or higher is installed on your machine.
 * Sign Up with macaddress.io and copy API key from Account -> General page.
 
 ## Setup
